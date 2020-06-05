@@ -1,0 +1,2 @@
+void mutate(char *nkey, const char *key, double swapRowRate, double swapColRate, double shiftRowRate, double shiftColRate, double revRowRate, double revColRate, double swapRate, double shuffleRate, double minShuffle, int maxShuffle, int nrrows, int nrcols);
+double randd();

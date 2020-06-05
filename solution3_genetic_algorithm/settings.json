@@ -1,0 +1,31 @@
+{
+	"population_size": 400, 
+	"nr_iterations": 1000,
+	"alphabet": "abcdefghiklmnopqrstuvwxyz",
+	"logging":
+	{
+		"verbose": false,
+		"n": 10,
+		"output_file": "out.log",
+		"quiet": false
+	},
+	"scoring": 
+	{
+		"function": "weight",
+		"n": 3
+	},
+	"mutation":
+	{
+		"swap_rate": 0.2,
+		"row_swap_rate": 0.004,
+		"col_swap_rate": 0.004,
+		"row_shift_rate": 0.008,
+		"col_shift_rate": 0.008,
+		"shuffle_rate": 0.001
+	},
+	"selection":
+	{
+		"function": "roulette",
+		"rate": 0.4
+	}
+}
